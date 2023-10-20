@@ -47,13 +47,15 @@ const About = () => {
         Flutter for crafting cutting-edge mobile applications. Simultaneously, I
         am delving deeper into the intricacies of Solidity and Metamask, gaining
         hands-on experience in blockchain development. <br />
-        My current focus lies in the transformative potential of Web3
-        technologies, where I actively contribute my insights and efforts.
-        Beyond my technical pursuits, I assume a leadership role in the 'Tech
-        Tribe' club, overseeing the management of innovative projects that
-        emphasize collaborative problem-solving and technical innovation. My
-        ongoing commitment to mastering new technologies reflects my drive to
-        stay at the forefront of digital innovation.
+        <span className="sm:block hidden">
+          My current focus lies in the transformative potential of Web3
+          technologies, where I actively contribute my insights and efforts.
+          Beyond my technical pursuits, I assume a leadership role in the 'Tech
+          Tribe' club, overseeing the management of innovative projects that
+          emphasize collaborative problem-solving and technical innovation. My
+          ongoing commitment to mastering new technologies reflects my drive to
+          stay at the forefront of digital innovation.
+        </span>
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

@@ -20,6 +20,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import postman from "./tech/postman.png";
+import blockchain from "./tech/blockchain.png";
+import bootstrap from "./tech/bootstrap.png";
+import dart from "./tech/dart.png";
+import ethereum from "./tech/ethereum.png";
+import firebase from "./tech/firebase.png";
+import flutter from "./tech/flutter.png";
+import gitub from "./tech/gitub.webp";
+import metamask from "./tech/metamask.png";
+import nextjs from "./tech/nextjs.png";
+import solidity from "./tech/solidity.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +70,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  postman,
+  blockchain,
+  dart,
+  bootstrap,
+  ethereum,
+  firebase,
+  flutter,
+  gitub,
+  metamask,
+  nextjs,
+  solidity,
 };

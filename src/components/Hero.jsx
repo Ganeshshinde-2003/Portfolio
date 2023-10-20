@@ -16,9 +16,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white flex`}>
-            Hi, I'm &nbsp;
+            <span className="sm:block hidden">Hi,&nbsp;</span>I'm
+            <span className="sm:block hidden">&nbsp;</span>
             <span className="text-[#915EFF] flex">
-              Ganesh &nbsp;<span className="sm:block hidden">Shinde</span>
+              Ganesh<span className="sm:block hidden"> &nbsp;Shinde</span>
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
