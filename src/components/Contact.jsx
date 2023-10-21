@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { socilaLinks } from "../constants";
 
 const Contact = () => {
   const formRef = useRef();
@@ -17,35 +18,39 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
+    if (form.name != "" && form.email != "" && form.message != "") {
+      setLoading(true);
 
-    emailjs
-      .send(
-        "service_cqebump",
-        "template_nbi9dzf",
-        {
-          name: form.name,
-          email: form.email,
-          message: form.message,
-        },
-        "d57BClSs6lQ7x1cMh"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible");
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.log(error);
-          alert("Something went wrong");
-        }
-      );
+      emailjs
+        .send(
+          "service_cqebump",
+          "template_nbi9dzf",
+          {
+            name: form.name,
+            email: form.email,
+            message: form.message,
+          },
+          "d57BClSs6lQ7x1cMh"
+        )
+        .then(
+          () => {
+            setLoading(false);
+            alert("Thank you. I will get back to you as soon as possible");
+            setForm({
+              name: "",
+              email: "",
+              message: "",
+            });
+          },
+          (error) => {
+            setLoading(false);
+            console.log(error);
+            alert("Something went wrong");
+          }
+        );
+    } else {
+      alert("Fill all the details!!!");
+    }
   };
 
   const handleChange = (e) => {
@@ -105,6 +110,20 @@ const Contact = () => {
           >
             {loading ? "Sending" : "Send"}
           </button>
+          <div className="flex flex-wrap gap-7">
+            {socilaLinks.map((link) => (
+              <div
+                className="bg-tertiary w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                onClick={() => window.open(link.name, "_blank")}
+              >
+                <img
+                  src={link.icon}
+                  alt={link.name}
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            ))}
+          </div>
         </form>
       </motion.div>
       <motion.div

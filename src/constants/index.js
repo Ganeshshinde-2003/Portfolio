@@ -6,7 +6,6 @@ import {
   javascript,
   typescript,
   html,
-  css,
   reactjs,
   redux,
   tailwind,
@@ -20,10 +19,16 @@ import {
   jobit,
   tripguide,
   threejs,
-  postman,
   flutter,
   metamask,
   gitub,
+  socialmedia,
+  whatsapp,
+  gossipapp,
+  github,
+  linkedin,
+  insta,
+  twitter,
 } from "../assets";
 
 export const navLinks = [
@@ -160,23 +165,25 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Ganesh proved me wrong.",
+    name: "Samiksha Taru",
+    designation: "Founder",
+    company: "HaraayDesingStudio",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQGX8eeldlJcbQ/profile-displayphoto-shrink_800_800/0/1691047679747?e=2147483647&v=beta&t=TfpMyg7zrdQQBroUX271Jp3qzc9ud-Uh_OPXa-sU4iw",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly loves the work as Ganesh does. He was the best Intern we had.",
+    name: "Pathik Patel",
+    designation: "Senior Software Developer",
+    company: "GT Pvt. Ltd",
+    image:
+      "https://media.licdn.com/dms/image/D5635AQG6MW9XsdEQ4Q/profile-framedphoto-shrink_800_800/0/1696507298484?e=1698469200&v=beta&t=xZwUzVc4IlIZLfFcaMlb_hcNK080upvnG_JK-PCUlr4",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Ganesh optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -186,9 +193,51 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Social Bolgging App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform: Blogging App is a feature-rich platform that enables users to share pictures, create engaging posts, and connect with others in a seamless and personalized experience with dark mode and light mode options.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/Ganeshshinde-2003/Blog-App-NextJS",
+  },
+  {
+    name: "Threads Clone",
+    description:
+      "Web application: Thread is a Next.js 13-powered web app that enables threaded discussions, community creation, and user interaction. Join discussions, explore communities, and connect with users in this dynamic platform.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "clerk, tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/Ganeshshinde-2003/NextJS-Threads",
+  },
+  {
+    name: "Ecommerce App",
+    description:
+      "MERN Ecommerce: A robust, full-stack application combining MongoDB, Express, React, and Node.js. Features include user authentication, product management, and secure payments via Braintree, all wrapped in a responsive design.",
     tags: [
       {
         name: "react",
@@ -199,59 +248,18 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/Ganeshshinde-2003/MERN-Stack-Ecommerce",
   },
   {
-    name: "Car Rent",
+    name: "SocialMedia App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform: Sociopedia A dynamic MERN-based webapp where users connect by logging in, share posts, and explore an engaging sociopedea community by sharing thier posts.",
     tags: [
       {
         name: "react",
@@ -262,55 +270,82 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: socialmedia,
+    source_code_link: "https://github.com/Ganeshshinde-2003/Sociopedia_MERN",
   },
   {
-    name: "Job IT",
+    name: "WhatsApp Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Mobile App: WhatsApp clone using Flutter and Firebase, providing users with a reliable and feature-rich communication platform that ensures privacy and real-time messaging capabilities.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "riverpod",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: whatsapp,
+    source_code_link:
+      "https://github.com/Ganeshshinde-2003/Flutter_WhatsApp_Clone",
   },
   {
-    name: "Trip Guide",
+    name: "Gossip App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Mobile App: GOSSIP is a group chat app built using Flutter and Firebase. It allows users to create and join groups for chatting by logging in using email and password. Available on Android, iOS, and web platforms.",
     tags: [
       {
-        name: "nextjs",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "auth",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: gossipapp,
+    source_code_link: "https://github.com/Ganeshshinde-2003/Gossip-Chat-App",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socilaLinks = [
+  {
+    name: "https://github.com/Ganeshshinde-2003",
+    icon: github,
+  },
+  {
+    name: "https://www.linkedin.com/in/dev-ganesh-shinde/",
+    icon: linkedin,
+  },
+  {
+    name: "https://www.instagram.com/gani_shinde20/",
+    icon: insta,
+  },
+  {
+    name: "https://twitter.com/Gani_Shinde",
+    icon: twitter,
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  socilaLinks,
+};

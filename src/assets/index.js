@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import insta from "./insta.webp";
+import linkedin from "./linkedin.png";
+import twitter from "./twitter.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -40,6 +43,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import socialmedia from "./socialmedia.png";
+import whatsapp from "./whatsapp clone.avif";
+import gossipapp from "./gossipapp.png";
 
 export {
   logo,
@@ -70,6 +76,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  socialmedia,
+  whatsapp,
+  gossipapp,
   postman,
   blockchain,
   dart,
@@ -81,4 +90,7 @@ export {
   metamask,
   nextjs,
   solidity,
+  insta,
+  linkedin,
+  twitter,
 };
