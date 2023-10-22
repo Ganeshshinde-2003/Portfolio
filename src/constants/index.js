@@ -181,14 +181,14 @@ const testimonials = [
     image:
       "https://media.licdn.com/dms/image/D5635AQG6MW9XsdEQ4Q/profile-framedphoto-shrink_800_800/0/1696507298484?e=1698469200&v=beta&t=xZwUzVc4IlIZLfFcaMlb_hcNK080upvnG_JK-PCUlr4",
   },
-  {
-    testimonial:
-      "After Ganesh optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "After Ganesh optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
