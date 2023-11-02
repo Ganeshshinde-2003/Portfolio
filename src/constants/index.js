@@ -179,7 +179,7 @@ const testimonials = [
     designation: "Senior Software Developer",
     company: "GT Pvt. Ltd",
     image:
-      "https://media.licdn.com/dms/image/D5635AQG6MW9XsdEQ4Q/profile-framedphoto-shrink_800_800/0/1696507298484?e=1698469200&v=beta&t=xZwUzVc4IlIZLfFcaMlb_hcNK080upvnG_JK-PCUlr4",
+      "https://media.licdn.com/dms/image/D5635AQG6MW9XsdEQ4Q/profile-framedphoto-shrink_800_800/0/1696507298484?e=1699552800&v=beta&t=k-rbp__CJKXOf9gjy52nbGL8HRyyQb3O5VZLdVQbHB0",
   },
   // {
   //   testimonial:
