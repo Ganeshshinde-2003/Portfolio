@@ -29,6 +29,7 @@ import {
   linkedin,
   insta,
   twitter,
+  oscode,
 } from "../assets";
 
 export const navLinks = [
@@ -158,6 +159,19 @@ const experiences = [
       "Developed mobile applications using Flutter and Riverpod, showcasing expertise in mobile app development.",
       "Implemented Three.js for web development, showcasing proficiency in creating 3D visualizations and interactive experiences.",
       "Demonstrated full-stack capabilities by seamlessly integrating diverse technologies to create comprehensive and functional websites and applications.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "OSCode",
+    icon: oscode,
+    iconBg: "#E6DEDD",
+    date: "October 2023 - present",
+    points: [
+      "Engineered a desktop version and mobile application demonstrating innovation in React.js and Electron for desktop, and Flutter for mobile development.",
+      "Successfully managed dual internships concurrently, ensuring high-quality deliverables for both desktop and mobile projects.",
+      "Showcased technical versatility through a diverse tech stack, encompassing React.js, Electron, Tailwind CSS, and Flutter",
+      "Applied strategic problem-solving to tailor web applications for desktop use, optimizing user experience and functionality.",
     ],
   },
 ];
