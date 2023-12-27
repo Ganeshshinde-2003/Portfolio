@@ -1,4 +1,4 @@
-# Three.js React Portfolio 🚀
+# Three.js React Portfolio 🚀.
 This is a sample README for your React portfolio project that uses Three.js for 3D rendering. The project structure includes a variety of technologies and libraries to create a visually stunning portfolio. Below is an overview of the project, its dependencies, and how to run it.
 
 ## Project Overview 🌟
