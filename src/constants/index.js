@@ -30,6 +30,9 @@ import {
   insta,
   twitter,
   oscode,
+  nokia,
+  samiksha,
+  pathik,
 } from "../assets";
 
 export const navLinks = [
@@ -149,6 +152,19 @@ const experiences = [
     ],
   },
   {
+    title: "Software Developer",
+    company_name: "Nokia",
+    icon: nokia,
+    iconBg: "#E6DEDD",
+    date: "August 2023 - November 2023",
+    points: [
+      "Significantly contributed to a collaborative effort with Nokia within the college association project, leading to the project's 3rd-place ranking among 20 projects from different colleges.",
+      "Demonstrated strong project management skills throughout the 4-month duration, efficiently overseeing tasks and ensuring successful project execution.",
+      "Collaborated closely with Nokia professionals who served as mentors, leveraging their expertise to enhance the project's quality and success.",
+      "Played an active role in the overall success of the project, showcasing a commitment to teamwork and achieving notable outcomes in a competitive environment.",
+    ],
+  },
+  {
     title: "Full Stack Developer",
     company_name: "Haraay Design Studio",
     icon: meta,
@@ -165,7 +181,7 @@ const experiences = [
     title: "Full Stack Developer",
     company_name: "OSCode",
     icon: oscode,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "October 2023 - present",
     points: [
       "Engineered a desktop version and mobile application demonstrating innovation in React.js and Electron for desktop, and Flutter for mobile development.",
@@ -183,8 +199,7 @@ const testimonials = [
     name: "Samiksha Taru",
     designation: "Founder",
     company: "HaraayDesingStudio",
-    image:
-      "https://media.licdn.com/dms/image/D4D03AQGX8eeldlJcbQ/profile-displayphoto-shrink_800_800/0/1691047679747?e=2147483647&v=beta&t=TfpMyg7zrdQQBroUX271Jp3qzc9ud-Uh_OPXa-sU4iw",
+    image: samiksha,
   },
   {
     testimonial:
@@ -192,8 +207,7 @@ const testimonials = [
     name: "Pathik Patel",
     designation: "Senior Software Developer",
     company: "GT Pvt. Ltd",
-    image:
-      "https://media.licdn.com/dms/image/D5635AQG6MW9XsdEQ4Q/profile-framedphoto-shrink_800_800/0/1696507298484?e=1699552800&v=beta&t=k-rbp__CJKXOf9gjy52nbGL8HRyyQb3O5VZLdVQbHB0",
+    image: pathik,
   },
   // {
   //   testimonial:

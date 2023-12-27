@@ -40,6 +40,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import oscode from "./company/oscode.png";
+import nokia from "./company/nokia.png";
+import samiksha from "./company/samikshamam.jpeg";
+import pathik from "./company/pathi.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -95,4 +98,7 @@ export {
   linkedin,
   twitter,
   oscode,
+  nokia,
+  samiksha,
+  pathik,
 };
