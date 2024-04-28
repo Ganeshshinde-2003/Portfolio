@@ -33,6 +33,7 @@ import {
   nokia,
   samiksha,
   pathik,
+  nth,
 } from "../assets";
 
 export const navLinks = [
@@ -132,10 +133,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "April 2023 - May 2023",
     points: [
-      "Developed four dynamic web applications using JavaScript, HTML, and CSS for the frontend, and NodeJS and MongoDB for the backend.",
-      "Demonstrated proficiency in full-stack web development, integrating frontend and backend technologies seamlessly.",
-      "Collaborated effectively in a team environment, contributing innovative ideas and resolving complex challenges.",
-      "Implemented rigorous testing procedures to ensure the functionality, performance, and security of the web applications.",
+      "Project Portfolio: Successfully developed and deployed multiple projects, including a portfolio, blogging app, URL shortener, and a to-do app using HTML, CSS, JavaScript, MongoDB, Node.js, and Render for deployment.",
+      "Technological Proficiency: Acquired hands-on experience with front-end and back-end technologies, enhancing skills in HTML, CSS, JavaScript, and Node.js. Developed a solid foundation in database management using MongoDB.",
+      "Effective Deployment: Gained expertise in deploying web applications using Render, ensuring efficient and seamless deployment processes.",
     ],
   },
   {
@@ -145,10 +145,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2023 - July 2023",
     points: [
-      "Proficient in React for web, Flutter for mobile, and Node.js for backend development.",
-      "Developed cross-platform solutions for responsive web applications and user-friendly mobile apps.",
-      "Demonstrated strong problem-solving skills and innovative thinking in collaborative team environments.",
-      "Prioritized user experience and intuitive design for both web and mobile applications.",
+      "Admin Panel Contribution: Successfully contributed to the development of the admin panel's front-end using React.js, Tailwind, and back-end functionalities using MySQL. Applied state management using Riverpod and GetX.",
+      "Mobile App Development: Played a key role in the main mobile app development using Flutter, enhancing skills in Dart and Firebase for efficient real-time data management.",
+      "Collaborative Contribution: Demonstrated effective collaboration within the development team, ensuring a seamless integration of front-end and back-end components.",
     ],
   },
   {
@@ -158,10 +157,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2023 - November 2023",
     points: [
-      "Significantly contributed to a collaborative effort with Nokia within the college association project, leading to the project's 3rd-place ranking among 20 projects from different colleges.",
-      "Demonstrated strong project management skills throughout the 4-month duration, efficiently overseeing tasks and ensuring successful project execution.",
-      "Collaborated closely with Nokia professionals who served as mentors, leveraging their expertise to enhance the project's quality and success.",
-      "Played an active role in the overall success of the project, showcasing a commitment to teamwork and achieving notable outcomes in a competitive environment.",
+      "Project Management: Demonstrated robust project management skills in a collaborative effort with Nokia, securing the project's 3rd place among 20 projects from different colleges.",
+      "Collaborative Work: Worked closely with Nokia professionals, showcasing effective collaboration and communication skills while contributing significantly to the project's success.",
+      "Remote Work Proficiency: Successfully managed a remote internship, highlighting adaptability, effective communication, and the ability to meet project milestones within a remote working environment.",
     ],
   },
   {
@@ -169,12 +167,23 @@ const experiences = [
     company_name: "Haraay Design Studio",
     icon: meta,
     iconBg: "#383E56",
-    date: "August 2023 - Present",
+    date: "August 2023 - January 2024",
     points: [
-      "Leveraged React, Next, and CSS (with Tailwind) for frontend development, while utilizing Node JS and MongoDB for the backend, to build dynamic and responsive websites.",
-      "Developed mobile applications using Flutter and Riverpod, showcasing expertise in mobile app development.",
-      "Implemented Three.js for web development, showcasing proficiency in creating 3D visualizations and interactive experiences.",
-      "Demonstrated full-stack capabilities by seamlessly integrating diverse technologies to create comprehensive and functional websites and applications.",
+      "Project Completion: Led the development of five challenging web projects from conceptualization to deployment, incorporating technologies such as React.js, Next.js, Tailwind, CSS, GSAP, Redux, Node.js, MongoDB, MySQL, PHP, and domain addition.",
+      "Client Satisfaction: Achieved client satisfaction through the successful completion of projects with heavy animation requirements. Implemented creative solutions using GSAP and ensured smooth deployment on platforms like GoDaddy.",
+      "Technical Versatility: Showcased versatility by working on both front-end and back-end technologies, handling complex animations, and contributing to domain management.",
+    ],
+  },
+  {
+    title: "Front End Mentor/Developer",
+    company_name: "Nth Space Solutions",
+    icon: nth,
+    iconBg: "#E6DEDD",
+    date: "February 2024 - April 2024",
+    points: [
+      "Provided hands-on mentorship to frontend developers at Nth Space Technologies for 3 months, emphasizing React, JavaScript, and CSS during project development.",
+      "Offered guidance on React component architecture, state management, and responsive design principles in real-world project scenarios.",
+      "Facilitated skill enhancement through practical experience, empowering developers to effectively apply React concepts and excel in frontend development tasks.",
     ],
   },
   {
@@ -184,10 +193,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2023 - present",
     points: [
-      "Engineered a desktop version and mobile application demonstrating innovation in React.js and Electron for desktop, and Flutter for mobile development.",
-      "Successfully managed dual internships concurrently, ensuring high-quality deliverables for both desktop and mobile projects.",
-      "Showcased technical versatility through a diverse tech stack, encompassing React.js, Electron, Tailwind CSS, and Flutter",
-      "Applied strategic problem-solving to tailor web applications for desktop use, optimizing user experience and functionality.",
+      "Desktop App Development: Played a crucial role in developing a school management desktop app using React.js, Tailwind, CSS, and Electron. Contributed to front-end and Firebase-backed back-end functionalities.",
+      "Mobile App Contribution: Worked on a mobile app for students, creating features like the date of birth page and notice period page using Flutter and Firebase. Developed a location tracking app for school buses.",
+      "Multifaceted Contribution: Demonstrated versatility by contributing to both desktop and mobile applications, showcasing adaptability and proficiency in diverse technologies.",
     ],
   },
 ];
