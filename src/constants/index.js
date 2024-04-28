@@ -34,6 +34,7 @@ import {
   samiksha,
   pathik,
   nth,
+  harsh,
 } from "../assets";
 
 export const navLinks = [
@@ -203,7 +204,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Ganesh proved me wrong.",
+      "Throughout their internship, Ganesh's proficiency in web development shone brightly, delivering high-quality code with precision and creativity.",
     name: "Samiksha Taru",
     designation: "Founder",
     company: "HaraayDesingStudio",
@@ -211,7 +212,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly loves the work as Ganesh does. He was the best Intern we had.",
+      "Ganesh demonstrated exceptional teamwork and adaptability, making valuable contributions to our projects throughout their internship.",
     name: "Pathik Patel",
     designation: "Senior Software Developer",
     company: "GT Pvt. Ltd",
@@ -219,11 +220,11 @@ const testimonials = [
   },
   // {
   //   testimonial:
-  //     "After Ganesh optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  //     "As a web dev intern, Ganesh consistently demonstrated their knack for problem-solving and innovative solutions, enhancing our team's productivity",
+  //   name: "Harsh Kumar",
+  //   designation: "Co-founder",
+  //   company: "OSCode",
+  //   image: harsh,
   // },
 ];
 
