@@ -38,7 +38,7 @@ To start the development server and view your portfolio, run:
 
       npm run dev
       
-This command will start the development server, and you can access the portfolio in your web browser at `http://localhost:3000` by default.
+This command will start the development server, and you can access the portfolio in your web browser at `http://localhost:5173/` by default.
 
 ### Dependencies 📦
 This project relies on several libraries and dependencies:
