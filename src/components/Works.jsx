@@ -72,7 +72,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Exhibiting my expertise in web and mobile app development, the
-          projects are built using Next.js, React.js, and Flutter. Each project
+          projects are built using TypeScript, Next.js, React.js, and Flutter. Each project
           is accompanied by comprehensive details, code repositories, and live
           demos, underlining my proficiency in utilizing these technologies to
           create innovative and functional solutions.

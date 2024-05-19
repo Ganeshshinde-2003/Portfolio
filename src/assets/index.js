@@ -50,8 +50,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import socialmedia from "./socialmedia.png";
+import photoshop from "./photoshop.png";
 import whatsapp from "./whatsapp clone.avif";
 import gossipapp from "./gossipapp.png";
+import erpapp from "./erpapp.png";
 
 export {
   logo,
@@ -105,4 +107,6 @@ export {
   pathik,
   nth,
   harsh,
+  photoshop,
+  erpapp
 };

@@ -35,6 +35,8 @@ import {
   pathik,
   nth,
   harsh,
+  photoshop,
+  erpapp,
 } from "../assets";
 
 export const navLinks = [
@@ -230,6 +232,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "School ERP App",
+    description:
+      "Used by hundreds of teachers and students, our School ERP app simplifies academic tasks. Teachers manage attendance, assignments, and exams, while students track attendance, view results, access learning materials and more.",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "riverpod",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: erpapp,
+    source_code_link:
+      "https://github.com/Ganeshshinde-2003/ERP-App",
+  },
+  {
     name: "Social Bolgging App",
     description:
       "Web-based platform: Blogging App is a feature-rich platform that enables users to share pictures, create engaging posts, and connect with others in a seamless and personalized experience with dark mode and light mode options.",
@@ -249,6 +273,27 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/Ganeshshinde-2003/Blog-App-NextJS",
+  },
+  {
+    name: "Photo Shop",
+    description:
+      "Photo Shop is a web application that enables users to upload, organize, and edit images from various sources like devices, web URLs, and cloud platforms. Powered by Cloudinary, it offers features such as album creation, liking, favoriting, and image editing.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cloudinary",
+        color: "green-text-gradient",
+      },
+      {
+        name: "taiwindcss, Shadcn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: photoshop,
+    source_code_link: "https://github.com/Ganeshshinde-2003/Cloudinary-Image-Editor",
   },
   {
     name: "Threads Clone",
@@ -294,52 +339,9 @@ const projects = [
       "https://github.com/Ganeshshinde-2003/MERN-Stack-Ecommerce",
   },
   {
-    name: "SocialMedia App",
-    description:
-      "Web-based platform: Sociopedia A dynamic MERN-based webapp where users connect by logging in, share posts, and explore an engaging sociopedea community by sharing thier posts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: socialmedia,
-    source_code_link: "https://github.com/Ganeshshinde-2003/Sociopedia_MERN",
-  },
-  {
-    name: "WhatsApp Clone",
-    description:
-      "Mobile App: WhatsApp clone using Flutter and Firebase, providing users with a reliable and feature-rich communication platform that ensures privacy and real-time messaging capabilities.",
-    tags: [
-      {
-        name: "flutter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "riverpod",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: whatsapp,
-    source_code_link:
-      "https://github.com/Ganeshshinde-2003/Flutter_WhatsApp_Clone",
-  },
-  {
     name: "Gossip App",
     description:
-      "Mobile App: GOSSIP is a group chat app built using Flutter and Firebase. It allows users to create and join groups for chatting by logging in using email and password. Available on Android, iOS, and web platforms.",
+      "Mobile App: GOSSIP is a group chat app built using Flutter and Firebase. It allows users to create and join groups for chatting by logging in using email and password for seamless integration. Available on Android, iOS, and web platforms.",
     tags: [
       {
         name: "flutter",
