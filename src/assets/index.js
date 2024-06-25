@@ -45,6 +45,7 @@ import samiksha from "./company/samikshamam.jpeg";
 import pathik from "./company/pathi.jpg";
 import nth from "./company/nth.png";
 import harsh from "./company/harsh.jpeg";
+import paraTalks from "./company/paratalks logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -108,5 +109,6 @@ export {
   nth,
   harsh,
   photoshop,
-  erpapp
+  erpapp,
+  paraTalks
 };

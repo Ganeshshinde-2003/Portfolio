@@ -37,6 +37,7 @@ import {
   harsh,
   photoshop,
   erpapp,
+  paraTalks,
 } from "../assets";
 
 export const navLinks = [
@@ -133,7 +134,7 @@ const experiences = [
     title: "Web Developer",
     company_name: "CodeClause",
     icon: starbucks,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "April 2023 - May 2023",
     points: [
       "Project Portfolio: Successfully developed and deployed multiple projects, including a portfolio, blogging app, URL shortener, and a to-do app using HTML, CSS, JavaScript, MongoDB, Node.js, and Render for deployment.",
@@ -145,7 +146,7 @@ const experiences = [
     title: "Full Stack Developer",
     company_name: "LoGrow Technologies LLP",
     icon: tesla,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "May 2023 - July 2023",
     points: [
       "Admin Panel Contribution: Successfully contributed to the development of the admin panel's front-end using React.js, Tailwind, and back-end functionalities using MySQL. Applied state management using Riverpod and GetX.",
@@ -193,12 +194,24 @@ const experiences = [
     title: "Full Stack Developer",
     company_name: "OSCode",
     icon: oscode,
-    iconBg: "#383E56",
-    date: "October 2023 - present",
+    iconBg: "#E6DEDD",
+    date: "October 2023 - June 2024",
     points: [
       "Desktop App Development: Played a crucial role in developing a school management desktop app using React.js, Tailwind, CSS, and Electron. Contributed to front-end and Firebase-backed back-end functionalities.",
       "Mobile App Contribution: Worked on a mobile app for students, creating features like the date of birth page and notice period page using Flutter and Firebase. Developed a location tracking app for school buses.",
       "Multifaceted Contribution: Demonstrated versatility by contributing to both desktop and mobile applications, showcasing adaptability and proficiency in diverse technologies.",
+    ],
+  },
+  {
+    title: "Flutter Developer",
+    company_name: "ParaTalks",
+    icon: paraTalks,
+    iconBg: "#383E56",
+    date: "June 2024 - current",
+    points: [
+      "Developed and enhanced mobile app front-end using Flutter and Bloc, integrating booking, payment, expert showcase features, and more, following SOLID principles for maintainability and scalability.",
+      "Maintained high productivity and transparency by adhering to the company's strict remote work protocols, including daily check-ins and task tracking through the CRM portal, ensuring timely and efficient task completion.",
+      "Applied best practices in state management and architecture, significantly improving app performance and maintainability, leading to enhanced user satisfaction, engagement, and SOLID principles.",
     ],
   },
 ];
