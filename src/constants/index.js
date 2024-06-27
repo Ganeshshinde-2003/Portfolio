@@ -137,9 +137,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "April 2023 - May 2023",
     points: [
-      "Project Portfolio: Successfully developed and deployed multiple projects, including a portfolio, blogging app, URL shortener, and a to-do app using HTML, CSS, JavaScript, MongoDB, Node.js, and Render for deployment.",
-      "Technological Proficiency: Acquired hands-on experience with front-end and back-end technologies, enhancing skills in HTML, CSS, JavaScript, and Node.js. Developed a solid foundation in database management using MongoDB.",
-      "Effective Deployment: Gained expertise in deploying web applications using Render, ensuring efficient and seamless deployment processes.",
+      "Developed and deployed a portfolio, blogging app, URL shortener, and to-do app using HTML, CSS, JavaScript, MongoDB, Node.js, and Render.",
+      "Experienced with front-end and back-end technologies, including HTML, CSS, JavaScript, Node.js, and MongoDB.",
+      "Expert in deploying web applications using Render.",
     ],
   },
   {
@@ -149,9 +149,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - July 2023",
     points: [
-      "Admin Panel Contribution: Successfully contributed to the development of the admin panel's front-end using React.js, Tailwind, and back-end functionalities using MySQL. Applied state management using Riverpod and GetX.",
-      "Mobile App Development: Played a key role in the main mobile app development using Flutter, enhancing skills in Dart and Firebase for efficient real-time data management.",
-      "Collaborative Contribution: Demonstrated effective collaboration within the development team, ensuring a seamless integration of front-end and back-end components.",
+      "Contributed to admin panel development using React.js, Tailwind, MySQL, Riverpod, and GetX.",
+      "Key role in mobile app development using Flutter, Dart, and Firebase.",
+      "Collaborated effectively with the development team for seamless integration of front-end and back-end components."
     ],
   },
   {
@@ -161,9 +161,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2023 - November 2023",
     points: [
-      "Project Management: Demonstrated robust project management skills in a collaborative effort with Nokia, securing the project's 3rd place among 20 projects from different colleges.",
-      "Collaborative Work: Worked closely with Nokia professionals, showcasing effective collaboration and communication skills while contributing significantly to the project's success.",
-      "Remote Work Proficiency: Successfully managed a remote internship, highlighting adaptability, effective communication, and the ability to meet project milestones within a remote working environment.",
+      "Managed a project with Nokia, securing 3rd place among 20 college projects.",
+      "Collaborated closely with Nokia professionals, contributing to the project's success.",
+      "Managed a remote internship, demonstrating adaptability and effective communication."
     ],
   },
   {
@@ -173,9 +173,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2023 - January 2024",
     points: [
-      "Project Completion: Led the development of five challenging web projects from conceptualization to deployment, incorporating technologies such as React.js, Next.js, Tailwind, CSS, GSAP, Redux, Node.js, MongoDB, MySQL, PHP, and domain addition.",
-      "Client Satisfaction: Achieved client satisfaction through the successful completion of projects with heavy animation requirements. Implemented creative solutions using GSAP and ensured smooth deployment on platforms like GoDaddy.",
-      "Technical Versatility: Showcased versatility by working on both front-end and back-end technologies, handling complex animations, and contributing to domain management.",
+      "Led 6 web projects using React.js, Next.js, Tailwind, GSAP, Redux, Node.js, MongoDB, MySQL, PHP, and domain management.",
+      "Satisfied clients with projects featuring complex animations using GSAP and deployed on GoDaddy.",
+      "Versatile in front-end and back-end technologies, complex animations, and domain management."
     ],
   },
   {
@@ -185,9 +185,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "February 2024 - April 2024",
     points: [
-      "Provided hands-on mentorship to frontend developers at Nth Space Technologies for 3 months, emphasizing React, JavaScript, and CSS during project development.",
-      "Offered guidance on React component architecture, state management, and responsive design principles in real-world project scenarios.",
-      "Facilitated skill enhancement through practical experience, empowering developers to effectively apply React concepts and excel in frontend development tasks.",
+      "Mentored frontend developers at Nth Space Technologies for 3 months on React, JavaScript, and CSS.",
+      "Guided on React component architecture, state management, and responsive design in projects.",
+      "Enhanced developer skills through practical experience with React and frontend tasks.",
     ],
   },
   {
@@ -197,9 +197,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "October 2023 - June 2024",
     points: [
-      "Desktop App Development: Played a crucial role in developing a school management desktop app using React.js, Tailwind, CSS, and Electron. Contributed to front-end and Firebase-backed back-end functionalities.",
-      "Mobile App Contribution: Worked on a mobile app for students, creating features like the date of birth page and notice period page using Flutter and Firebase. Developed a location tracking app for school buses.",
-      "Multifaceted Contribution: Demonstrated versatility by contributing to both desktop and mobile applications, showcasing adaptability and proficiency in diverse technologies.",
+      "Developed a school management desktop app with React.js, Tailwind, CSS, Electron, and Firebase integration.",
+      "Created features for a student mobile app using Flutter and Firebase, including date of birth and notice period pages, and developed a school bus location tracking app.",
+      "Demonstrated versatility in both desktop and mobile app development, mastering diverse technologies effectively."
     ],
   },
   {
@@ -209,9 +209,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2024 - current",
     points: [
-      "Developed and enhanced mobile app front-end using Flutter and Bloc, integrating booking, payment, expert showcase features, and more, following SOLID principles for maintainability and scalability.",
-      "Maintained high productivity and transparency by adhering to the company's strict remote work protocols, including daily check-ins and task tracking through the CRM portal, ensuring timely and efficient task completion.",
-      "Applied best practices in state management and architecture, significantly improving app performance and maintainability, leading to enhanced user satisfaction, engagement, and SOLID principles.",
+      "Enhanced mobile app front-end with Flutter, Bloc, booking, payment features, and SOLID principles.",
+      "Adhered to strict remote work protocols, ensuring high productivity and transparency.",
+      "Improved app performance and maintainability with state management best practices and architecture."
     ],
   },
 ];
@@ -263,8 +263,7 @@ const projects = [
       },
     ],
     image: erpapp,
-    source_code_link:
-      "https://github.com/Ganeshshinde-2003/ERP-App",
+    source_code_link: "https://github.com/Ganeshshinde-2003/ERP-App",
   },
   {
     name: "Social Bolgging App",
@@ -306,7 +305,8 @@ const projects = [
       },
     ],
     image: photoshop,
-    source_code_link: "https://github.com/Ganeshshinde-2003/Cloudinary-Image-Editor",
+    source_code_link:
+      "https://github.com/Ganeshshinde-2003/Cloudinary-Image-Editor",
   },
   {
     name: "Threads Clone",

@@ -61,7 +61,7 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <>
+    <div className="hidden sm:block">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
@@ -83,7 +83,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} {...project} index={index} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
