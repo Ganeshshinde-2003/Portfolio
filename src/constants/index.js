@@ -39,6 +39,7 @@ import {
   erpapp,
   paraTalks,
   chaitanya,
+  sayanatan,
 } from "../assets";
 
 export const navLinks = [
@@ -152,7 +153,7 @@ const experiences = [
     points: [
       "Contributed to admin panel development using React.js, Tailwind, MySQL, Riverpod, and GetX.",
       "Key role in mobile app development using Flutter, Dart, and Firebase.",
-      "Collaborated effectively with the development team for seamless integration of front-end and back-end components."
+      "Collaborated effectively with the development team for seamless integration of front-end and back-end components.",
     ],
   },
   {
@@ -164,7 +165,7 @@ const experiences = [
     points: [
       "Managed a project with Nokia, securing 3rd place among 20 college projects.",
       "Collaborated closely with Nokia professionals, contributing to the project's success.",
-      "Managed a remote internship, demonstrating adaptability and effective communication."
+      "Managed a remote internship, demonstrating adaptability and effective communication.",
     ],
   },
   {
@@ -176,7 +177,7 @@ const experiences = [
     points: [
       "Led 6 web projects using React.js, Next.js, Tailwind, GSAP, Redux, Node.js, MongoDB, MySQL, PHP, and domain management.",
       "Satisfied clients with projects featuring complex animations using GSAP and deployed on GoDaddy.",
-      "Versatile in front-end and back-end technologies, complex animations, and domain management."
+      "Versatile in front-end and back-end technologies, complex animations, and domain management.",
     ],
   },
   {
@@ -200,7 +201,7 @@ const experiences = [
     points: [
       "Developed a school management desktop app with React.js, Tailwind, CSS, Electron, and Firebase integration.",
       "Created features for a student mobile app using Flutter and Firebase, including date of birth and notice period pages, and developed a school bus location tracking app.",
-      "Demonstrated versatility in both desktop and mobile app development, mastering diverse technologies effectively."
+      "Demonstrated versatility in both desktop and mobile app development, mastering diverse technologies effectively.",
     ],
   },
   {
@@ -212,7 +213,7 @@ const experiences = [
     points: [
       "Enhanced mobile app front-end with Flutter, Bloc, booking, payment features, and SOLID principles.",
       "Adhered to strict remote work protocols, ensuring high productivity and transparency.",
-      "Improved app performance and maintainability with state management best practices and architecture."
+      "Improved app performance and maintainability with state management best practices and architecture.",
     ],
   },
 ];
@@ -225,6 +226,14 @@ const testimonials = [
     designation: "Founders office",
     company: "Jericho Ventures",
     image: chaitanya,
+  },
+  {
+    testimonial:
+      "Ganesh effectively delivered the website on time, meeting our regulatory needs and setting the stage for future expansion.",
+    name: "Sayantan Datta",
+    designation: "Co-founder",
+    company: "Bsides Kolkata",
+    image: sayanatan,
   },
   {
     testimonial:
