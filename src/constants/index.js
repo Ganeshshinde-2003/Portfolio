@@ -38,6 +38,7 @@ import {
   photoshop,
   erpapp,
   paraTalks,
+  chaitanya,
 } from "../assets";
 
 export const navLinks = [
@@ -217,6 +218,14 @@ const experiences = [
 ];
 
 const testimonials = [
+  {
+    testimonial:
+      "Working with Ganesh was a pleasure. His quick understanding and agile execution ensured smooth project delivery and high-quality results.",
+    name: "Chaitanya Pandit",
+    designation: "Founders office",
+    company: "Jericho Ventures",
+    image: chaitanya,
+  },
   {
     testimonial:
       "Throughout their internship, Ganesh's proficiency in web development shone brightly, delivering high-quality code with precision and creativity.",

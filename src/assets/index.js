@@ -42,6 +42,7 @@ import tesla from "./company/tesla.png";
 import oscode from "./company/oscode.png";
 import nokia from "./company/nokia.png";
 import samiksha from "./company/samikshamam.jpeg";
+import chaitanya from "./company/chaitanya.png"
 import pathik from "./company/pathi.jpg";
 import nth from "./company/nth.png";
 import harsh from "./company/harsh.jpeg";
@@ -110,5 +111,6 @@ export {
   harsh,
   photoshop,
   erpapp,
+  chaitanya,
   paraTalks
 };
