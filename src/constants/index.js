@@ -240,7 +240,7 @@ const testimonials = [
       "Throughout their internship, Ganesh's proficiency in web development shone brightly, delivering high-quality code with precision and creativity.",
     name: "Samiksha Taru",
     designation: "Founder",
-    company: "HaraayDesingStudio",
+    company: "HaraayDesignStudio",
     image: samiksha,
   },
   {
