@@ -45,6 +45,7 @@ import samiksha from "./company/samikshamam.jpeg";
 import chaitanya from "./company/chaitanya.png"
 import pathik from "./company/pathi.jpg";
 import sayanatan from "./company/Sayantan.png";
+import yash from "./company/yash.jpeg"
 import nth from "./company/nth.png";
 import harsh from "./company/harsh.jpeg";
 import paraTalks from "./company/paratalks logo.png";
@@ -114,5 +115,6 @@ export {
   photoshop,
   erpapp,
   chaitanya,
-  paraTalks
+  paraTalks,
+  yash
 };
