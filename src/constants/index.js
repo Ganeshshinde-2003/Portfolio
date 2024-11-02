@@ -40,6 +40,7 @@ import {
   paraTalks,
   chaitanya,
   sayanatan,
+  yash,
 } from "../assets";
 
 export const navLinks = [
@@ -226,6 +227,16 @@ const testimonials = [
     designation: "Founders office",
     company: "Jericho Ventures",
     image: chaitanya,
+    linkedin: "https://www.linkedin.com/in/chaitanya-pandit-mumbai/" 
+  },
+  {
+    testimonial:
+      "Impressed by Ganesh's dedication and strong determination to deliver quality work, which ensured the project met all expectations.",
+    name: "Yash Rajan Shukla",
+    designation: "CTO",
+    company: "ParaTalks",
+    image: yash,
+    linkedin: "https://www.linkedin.com/in/yash-rajan-shukla-269476154/" 
   },
   {
     testimonial:
@@ -234,6 +245,7 @@ const testimonials = [
     designation: "Co-founder",
     company: "Bsides Kolkata",
     image: sayanatan,
+    linkedin: "https://www.linkedin.com/in/sayantan/" 
   },
   {
     testimonial:
@@ -242,6 +254,7 @@ const testimonials = [
     designation: "Founder",
     company: "HaraayDesignStudio",
     image: samiksha,
+    linkedin: "https://www.linkedin.com/in/samiksha-taru-8393621a1/" 
   },
   {
     testimonial:
@@ -250,6 +263,7 @@ const testimonials = [
     designation: "Senior Software Developer",
     company: "GT Pvt. Ltd",
     image: pathik,
+    linkedin: "https://www.linkedin.com/in/pathik-patel-in/" 
   },
   // {
   //   testimonial:
