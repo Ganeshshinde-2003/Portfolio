@@ -49,6 +49,7 @@ import yash from "./company/yash.jpeg"
 import nth from "./company/nth.png";
 import harsh from "./company/harsh.jpeg";
 import paraTalks from "./company/paratalks logo.png";
+import bewell from "./company/bewell.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -65,6 +66,7 @@ export {
   creator,
   mobile,
   web,
+  bewell,
   github,
   menu,
   close,

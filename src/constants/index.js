@@ -41,6 +41,7 @@ import {
   chaitanya,
   sayanatan,
   yash,
+  bewell,
 } from "../assets";
 
 export const navLinks = [
@@ -210,11 +211,23 @@ const experiences = [
     company_name: "ParaTalks",
     icon: paraTalks,
     iconBg: "#383E56",
-    date: "June 2024 - current",
+    date: "June 2024 - September",
     points: [
       "Enhanced mobile app front-end with Flutter, Bloc, booking, payment features, and SOLID principles.",
       "Adhered to strict remote work protocols, ensuring high productivity and transparency.",
       "Improved app performance and maintainability with state management best practices and architecture.",
+    ],
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "Bewell",
+    icon: bewell,
+    iconBg: "#383E56",
+    date: "November 2024 - current",
+    points: [
+      "Developing the Bewell mobile app with Flutter, Dart, and Riverpod for a seamless user experience.",
+      "Building and optimizing the admin panel using React and Tailwind CSS for efficient user management.",
+      "Collaborating remotely with a global team to enhance product functionality and user engagement",
     ],
   },
 ];
